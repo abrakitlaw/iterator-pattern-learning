@@ -6,7 +6,11 @@ An aggregate object such as a list should give us a way to access its elements w
 
 The Iterator pattern lets you do all this. The key idea is to take the responsibility for access and traversal out of the aggregate object and put it into an iterator object that defines a standard traversal protocol.
 
+![Structure Iterator Design Pattern](/iterator/src/main/java/assets/iterator_design_pattern_structure.png)
+
 ## Composite Pattern
 Allows us to compose objects into tree structures and then work with these structures as if they were individual objects.
 
 Using the Composite Pattern makes sense only when the core model of your app can be represented as tree. The greatest benefit of this approach is that you don't need to care about concrete classes of objects that compose a tree
+
+![Structure Composite Design Pattern](/iterator/src/main/java/assets/composite_design_pattern_structure.png)
